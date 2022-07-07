@@ -188,7 +188,7 @@ int main(int argc, char** argv)
 	Paket paket={0};
 
 	//preamble muss gem vol6 2.1.1 mit bitwechsel zu adresse uebergehen	
-	paket.preamble = 0b01010101;
+	paket.preamble = 0b10101010;
 	
 	//adresse fuer advertising broadcast gem vol6 2.1.2 in bt core spec 5.0
 	//adv broadcast adresse: 0x8E89BED6 (0b10001110100010011011111011010110)
